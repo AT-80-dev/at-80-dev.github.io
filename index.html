@@ -9,17 +9,12 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" rel="stylesheet" >
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@285;528;600;718;818;900&display=swap" rel="stylesheet">
 </head>
 <style>
-    @font-face {
-        font-family: 'Montserrat';
-        src: url(/assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
-    }
-    @font-face {
-        font-family: 'exo_2';
-        src: url(/assets/fonts/Exo_2/Exo2-Italic-VariableFont_wght.ttf);
-    }
-    
+   
     :root {
         --white: #ffffff;
         --yelloworange:#E27A29;
@@ -35,7 +30,7 @@
     }
 
     h1,h2,h3,h4,h5{
-        font-family: 'Montserrat';
+        font-family: 'Montserrat', sans-serif;
     }
 
     .lg-back{
@@ -59,7 +54,7 @@
         display: none;
     }
     .hero-header{
-        font-family: 'Montserrat';
+        font-family: 'Montserrat', sans-serif;
         font-weight: 700;
         font-size: 25px;
         color: var(--yelloworange); 
@@ -88,7 +83,7 @@
 
 
     .boxed-header{
-        font-family: 'Montserrat';
+        font-family: 'Montserrat', sans-serif;
         font-weight: 700;
         font-size: 30px;
         line-height: 22px;
@@ -113,7 +108,7 @@
     }
 
     .month-title{
-        font-family: 'Montserrat';
+        font-family: 'Montserrat', sans-serif;
         font-weight: 700;
         size: 16px;
         line-height: 19.5px;
@@ -125,7 +120,7 @@
         width: 275px;
         height: 60px;
         left: 165px;
-        font-family: 'Montserrat';
+        font-family: 'Montserrat', sans-serif;
         font-style: normal;
         font-weight: 400;
         font-size: 12px;
@@ -157,24 +152,13 @@
     .section-header{
         color: var(--text-gray);
         font-weight: 700;
-        font-size: 20px;
-        font-family: 'Montserrat';
-        line-height: 24.38px;
-    }
-
-    .section-header-2{
-        color: var(--text-gray);
-        font-family: 'exo_2';
-        font-weight: 700;
         font-size: 22px;
-        line-height: 26.4px;
+        font-family: 'Montserrat', sans-serif;
+        line-height: 24.38px;
         text-align: center;
     }
 
-
-
-
-
+    
     .article-text{
         font-family: Arial, sans-serif;
         font-weight: 400;
@@ -200,11 +184,17 @@
         padding-top: 32px;
         padding-bottom: 32px;
     }
+    section#support p{
+        text-align: center;
+    }
+
+
 
     .support-image{
-        height: 122.97px;
         width: auto;
         margin-bottom:10px;
+        text-align: center;
+        height: 160px;
         
     }
     .support-image img{
@@ -214,9 +204,9 @@
 
 
     .icon-container{
-        height: 35px;
-        width: 35px;
-        background-color: var(--icon-red);
+        height: 50px;
+        width: 50px;
+        background-color: var(--white);
         border-radius: 100%;
         color: var(--white);
         display: flex;
@@ -238,7 +228,7 @@
     }
     .rights{
         color: var(--light-blue);
-        font-family: 'Montserrat';
+        font-family: 'Montserrat', sans-serif;
         font-weight: 500;
         font-size: 13;
         line-height: 24px;
@@ -305,7 +295,7 @@
                 <h3 class="hero-header mb-0">Voice of the Martyrs Philippines</h3>
                 <p class="my-4 hero-text text-white">Voice of the Martyrs is dedicated to being a voice for persecuted Christians by sharing their stories.</p><!-- Ang Voice of the Martyrs ay nakatuon sa pagiging isang boses para sa mga inuusig na Kristiyano sa pamamagitan ng pagbabahagi ng kanilang mga kuwento. -->
                 <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                    <a href="#" class="py-3 px-5 btn text-white">Pray With Us</a>
+                    <a href="#" class="text-light py-3 px-5 btn text-white">Pray With Us</a>
                 </div>
               </div>
             </div>
@@ -313,7 +303,7 @@
     </section>
     <section class="lg-back section-padding d-flex justify-content-center flex-column">
         <!-- <h6 class="section-header text-center">Mahingkayat. Maging inspirasyon. Maging boses nila.</h6> -->
-        <h6 class="pb-2 section-header text-center">Encourage. Inspire. Be their voice.</h6>
+        <h6 class="pb-2 section-header text-center pb-3">Encourage. Inspire. Be their voice.</h6>
         <div class="article-with m-auto d-flex justify-content-center flex-column pb-4">
             <!-- <p class="text-center article-text">Ang Voice of the Martyrs ay nakatuon sa pagiging isang boses para sa mga inuusig na Kristiyano. Sa diwa ng aming tagapamuno na si Richard Wurmbrand, ang Voice of the Martyrs ay nakalikom ng pera upang direktang suportahan ang mga inuusig na Kristiyano. Marami sa aming mga kampanya at proyekto ang nagbibigay ng mga Bibliya, mga mapagkukunan ng ministeryo, tulong medikal at praktikal na tulong sa mahigit 60 bansa sa buong mundo.</p> -->
             <p class="text-center article-text">Voice of the Martyrs is dedicated to being a voice for persecuted Christians. In the spirit of our leader Richard Wurmbrand, Voice of the Martyrs raises money to directly support persecuted Christians. Many of our campaigns and projects provide Bibles, ministry resources, medical aid, and practical help in over 60 countries around the world.</p>
@@ -367,7 +357,7 @@
     </section>
     <section class="section-padding d-flex justify-content-center flex-column">
         <!-- <h6 class="section-header text-center">Halimbawa ng aming nakamit sa taong 2021</h6> -->
-        <h6 class="section-header text-center">Example of what we achieved in the year 2021</h6>
+        <h6 class="section-header text-center pb-3">Example of what we achieved in the year 2021</h6>
         
         <div class="row">
             <div class="col-12 col-xs-6 col-md-4">
@@ -399,23 +389,25 @@
         </div>
 
         <div class="row pb-2">
-            <div class="article-image col-12 col-xs-12 col-md-12 col-lg-6">
-                <img class="img-content img-fluid" src="/assets/images/bibles_plus_article.png" alt="">
+            <div class="d-flex justify-content-center col-12 col-xs-12 col-md-12 col-lg-6">
+                <img src="/assets/images/bibles_plus_article.png" alt="">
             </div>
             <div class="col-12 col-xs-12 col-md-12 col-lg-6">
                 <p class="article-text">
                     <!-- Ang aming mga Bibles Plus pack ay tumutulong na magbigay ng pangangalagang holistic sa mga pinag-uusig na mananampalataya. Sa maraming pinaghihigpitang bansa, ang pag-uusig at kahirapan ay magkasabay. Ang pagbibigay sa mga mananampalataya ng salita ng Diyos ay tumutulong sa kanila na tumayong matatag sa kanilang pananampalataya sa gitna ng mga pagsubok at pagdurusa. Ang pagbibigay ng karagdagang mga mahahalagang bagay tulad ng noodles, kanin, mantika, mga gamit sa kalinisan at kumot, ay isang karagdagang pagpapala ng praktikal na pagmamahal at pangangalaga para sa mga naghihirap na pamilya. Salamat sa aming mga tagasuporta, ang mga manggagawa ng VOM at mga kasamang ministro ay namahagi ng mga pakete sa higit sa 7,900 pamilya sa Pakistan, Iran, China, Pilipinas, India, Indonesia at Myanmar..                     -->
                     Our Bibles Plus packs help provide holistic care to persecuted believers. In many restricted countries, persecution and poverty go hand in hand. Giving believers the word of God helps them stand firm in their faith in the midst of trials and tribulations. Providing additional essentials such as noodles, rice, cooking oil, hygiene items and blankets, is an additional blessing of practical love and care for poor families. Thanks to our supporters, VOM workers and associate ministers have distributed packages to more than 7,900 families in Pakistan, Iran, China, Philippines, India, Indonesia and Myanmar..
                 </p>
+                <br>
+                <p class="text-center article-text">
+                    <!-- Ngayong taon, inaasahan ng VOM Philippines na ipamahagi ang mga Bibles Plus pack sa mga inuusig na mananampalataya sa parehong mga bansa at, bilang karagdagan, Iraq, Syria, Sudan at Lebanon. Sa halagang $40 lang, mabibiyayaan mo ang isang naghihirap na pamilya ng isang Bibles Plus pack. Palaging may kasamang Bibliya ang mga pakete, at iba pang mahahalagang bagay gaya ng: Noodles, Rice, Oil, hygiene items, kulambo, damit, gamit sa kusina, medical kit at blanket. -->
+                    This year, VOM Philippines hopes to distribute Bibles Plus packs to persecuted believers in both countries and, in addition, Iraq, Syria, Sudan, and Lebanon. For just $40, you can bless a needy family with a Bibles Plus pack. The packages always include a Bible, and other essentials such as Noodles, Rice, Oil, hygiene items, mosquito nets, clothes, kitchen utensils, medical kits, and blankets.
+                </p>
             </div>
         </div>
         
 
         <div class="article-with m-auto d-flex justify-content-center flex-column">
-            <p class="text-center article-text">
-                <!-- Ngayong taon, inaasahan ng VOM Philippines na ipamahagi ang mga Bibles Plus pack sa mga inuusig na mananampalataya sa parehong mga bansa at, bilang karagdagan, Iraq, Syria, Sudan at Lebanon. Sa halagang $40 lang, mabibiyayaan mo ang isang naghihirap na pamilya ng isang Bibles Plus pack. Palaging may kasamang Bibliya ang mga pakete, at iba pang mahahalagang bagay gaya ng: Noodles, Rice, Oil, hygiene items, kulambo, damit, gamit sa kusina, medical kit at blanket. -->
-                This year, VOM Philippines hopes to distribute Bibles Plus packs to persecuted believers in both countries and, in addition, Iraq, Syria, Sudan, and Lebanon. For just $40, you can bless a needy family with a Bibles Plus pack. The packages always include a Bible, and other essentials such as Noodles, Rice, Oil, hygiene items, mosquito nets, clothes, kitchen utensils, medical kits, and blankets.
-            </p>
+            
         </div>
 
         <div class="d-flex justify-content-center">
@@ -425,7 +417,7 @@
         
     </section>
     <section id="support" class="lg-back section-padding d-flex justify-content-center flex-column">
-        <h6 class="section-header-2 text-center">Why do you need to support VOM?</h6><!-- Bakit kailangan mo mag supporta sa VOM? -->
+        <h6 class="section-header text-center pb-3">Why do you need to support VOM?</h6><!-- Bakit kailangan mo mag supporta sa VOM? -->
         
         <div class="row">
             <div class="col-12 col-xs-6 col-md-6">
@@ -439,18 +431,7 @@
         </div>
     </section>
     <section class="section-padding">
-        <h6 class="section-header-2 text-center">Pray with Us, Follow us</h6>
-        <div class="my-3 social-media d-flex justify-content-center align-items-center gap-5" >
-            <div class="socialicon-container d-flex gap-2">
-                <div class="icon-container"><i class="fa-brands fa-facebook-f"></i></div>
-                <div class="article-text d-flex justify-content-center align-items-center ">@vomphilippines</div>
-            </div>
-            
-            <div class="socialicon-container d-flex gap-2">
-                <div class="icon-container"><i class="fa-brands fa-instagram"></i></div>
-                <div class="article-text d-flex justify-content-center align-items-center">@vomphilippines</div>
-            </div>
-        </div>
+        
         <div class="row">
             <div class="col-12">
                 <div id="instafeed-container"></div>
@@ -476,22 +457,35 @@
 </body>
 <footer class="d-flex justify-content-center flex-column p-5 cointainer-fluid">
 
+    <h6 class="section-header text-center text-light">Pray with Us, Follow us</h6>
+    <div class="my-3 social-media d-flex justify-content-center align-items-center gap-5" >
+        <div class="socialicon-container d-flex gap-2">
+            <a class="p-1 d-flex gap-2" href="">
+                <img width="50" height="50" src="/assets/images/footer_social_media/facebook.png" alt="">
+                <div class="text-light article-text d-flex justify-content-center align-items-center ">@vomphilippines</div>
+            </a>
+        </div>
+        
+        <div class="socialicon-container d-flex gap-2">
+            <a class="p-1 d-flex gap-2" href="" >
+                <img width="50" height="50" src="/assets/images/footer_social_media/instagram.png" alt="">
+                <div class=" text-light article-text d-flex justify-content-center align-items-center">@vomphilippines</div>
+            </a>
+        </div>
+    </div>
+
     <div class="d-flex justify-content-center align-items-center">
-        <a class="p-1" href=""><img src="/assets/images/footer_social_media/facebook.png" alt=""></a>
-        <a class="p-1" href=""><img src="/assets/images/footer_social_media/instagram.png" alt=""></a>
-        <a class="p-1" href=""><img src="/assets/images/footer_social_media/twitter.png" alt=""></a>
-        <a class="p-1" href=""><img src="/assets/images/footer_social_media/youtube.png" alt=""></a>
+        
+        
     </div>
 
     <div class="rights d-flex justify-content-center flex-column text-center m-5">
-        <p>© 2022 Voice of the Martyrs Philippines. All rights reserved. • P: 02 4759 7000</p>
-        <p>ABN - 27 122 696 375</p>
+        
+        
     </div>
 
     <div class="contact-policy link-m-auto text-white d-flex justify-content-center text-center gap-1">
-        <a class="link-light" href="">CONTACT VOM PHILIPPINES</a>
-        <div class="text-center">|</div>
-        <a class="link-light" href="">PRIVACY POLICY</a>
+        <p>© 2022 Voice of the Martyrs Philippines. All rights reserved.</p>
     </div>
 
     
